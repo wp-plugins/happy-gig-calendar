@@ -1,5 +1,5 @@
 === Wordpress Happy Gig Calendar ===
-Contributors: ifyoubuildit
+Contributors: iybi
 Tags: calendar, gig, event, music, iybi, ifyoubuildit
 Plugin URI: http://ifyoubuildit.com.au
 Author URI: http://ifyoubuildit.com.au
