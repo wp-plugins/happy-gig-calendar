@@ -1,0 +1,171 @@
+/* 
+
+Copyright (C) 2014 If You Build It
+
+Wordpress Happy Gig Calendar is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+Wordpress Happy Gig Calendar is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+*/
+
+/* -------- MAIN STYLING -------- */
+
+#cal_nav {
+	font-size:.9em;
+	margin-bottom: 1.5em;
+}
+
+#cal_nav a {
+	background-color: #ccc;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#cal_nav strong {
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px;
+}
+
+
+ul#cal {
+	list-style: none;
+	margin: 1em 0 1.5em 0;
+	padding: 0;
+}
+
+
+#cal li.gig {
+	clear: both;
+	padding-top: 2.5em;
+}
+
+#cal .date {
+	white-space:nowrap;
+	float:left;
+	padding-bottom:1.5em;
+}
+
+#cal .start-date {
+	float:left;
+	text-align:center;
+	width:3.5em;
+	padding-right: 0.5em;
+	background:transparent url(../images/hyphen.png) right 2em no-repeat;
+	overflow:hidden;
+}
+
+#cal .end-date {
+	text-align:center;
+	width:3em;
+	margin-left:3.9em;
+	overflow:hidden;
+}
+
+#cal .year {
+	font-size:.8em;
+	line-height:1em;
+	letter-spacing: .1em;
+	color: #aaa !important;
+}
+
+#cal .month {
+	text-transform:uppercase;
+	font-size:.9em;
+	line-height:1em;
+	padding:.4em 0 .5em 0;
+	border-bottom: 1px #ccc solid;
+	margin-bottom: .5em;
+}
+
+#cal .day {
+	font-size:1.6em;
+	font-weight:bold;
+	line-height:1em;
+	margin-bottom:-.2em;
+	padding-top: 5px;
+}
+
+#cal .info_block {
+	padding:0 0 1em 0;
+	margin:0 0 0 7.5em;
+}
+
+#cal .info_block a{
+	text-decoration: none;
+}
+
+#cal .info_block h3 {
+	clear:none;
+	margin-top:0;
+	padding-top:0;
+	font-weight: bold;
+}
+
+#cal .weekday {
+	font-size:.7em;
+	text-transform:uppercase;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+#cal .time {
+	font-weight:bold;
+}
+
+a.tickets-button {
+	float: left;
+	margin: 20px 0px;
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.tickets-button:hover {
+	opacity:0.8;
+}
+
+span.details {
+	float:left;
+	margin-top: 20px;
+	max-width: 100%;
+}
+
+h2#cal_title {
+display:none;	
+}
+
+/* -------- WIDGET STYLING -------- */
+
+ul#wpgigs-widget li {
+	padding: 10px;
+	background: #ffffff;
+}
+
+#wpgigs-widget div.date {
+	border-bottom: 1px #000 solid;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
